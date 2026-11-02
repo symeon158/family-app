@@ -1,0 +1,23 @@
+# Secrets: on Streamlit Cloud these go in the app's Settings > Secrets
+secrets.toml
+.streamlit/secrets.toml
+.env
+
+# Archives can contain copies of the secrets
+*.zip
+
+# Children's names and scores stay on this computer
+geo_profiles.json
+geo_badges.json
+geo_highscores.json
+highscores.json
+*.tmp
+
+# The app doesn't need the textbook PDF
+data.pdf
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
